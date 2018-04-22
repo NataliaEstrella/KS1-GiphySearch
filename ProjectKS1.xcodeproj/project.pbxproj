@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		730DC8E71CA4C65A0AB6E1FC /* Pods_ProjectKS1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE2DD4DEFD87F7A9CFD0C5E /* Pods_ProjectKS1.framework */; };
+		A8C4A8D62084668800337945 /* KSCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C4A8D52084668800337945 /* KSCollectionViewController.swift */; };
+		A8C4A9042084709100337945 /* KSSearchCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C4A9032084709100337945 /* KSSearchCollectionReusableView.swift */; };
+		A8C4A907208478BC00337945 /* KSCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C4A905208478BC00337945 /* KSCollectionViewCell.swift */; };
+		A8C4A908208478BC00337945 /* KSCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8C4A906208478BC00337945 /* KSCollectionViewCell.xib */; };
+		A8C5FE252086FE0000100F7B /* KSClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C5FE242086FE0000100F7B /* KSClient.swift */; };
 		A8E8365A20841B3B00DAB400 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E8365920841B3B00DAB400 /* AppDelegate.swift */; };
-		A8E8365C20841B3B00DAB400 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E8365B20841B3B00DAB400 /* ViewController.swift */; };
 		A8E8365F20841B3B00DAB400 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8E8365D20841B3B00DAB400 /* Main.storyboard */; };
 		A8E8366120841B3B00DAB400 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8E8366020841B3B00DAB400 /* Assets.xcassets */; };
 		A8E8366420841B3B00DAB400 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8E8366220841B3B00DAB400 /* LaunchScreen.storyboard */; };
 		A8E8366F20841B3B00DAB400 /* ProjectKS1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E8366E20841B3B00DAB400 /* ProjectKS1Tests.swift */; };
+		A8E8367A20841B6300DAB400 /* KSModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E8367920841B6300DAB400 /* KSModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +32,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13D5CBAE0E1135C6902DF2C5 /* Pods-ProjectKS1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectKS1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectKS1/Pods-ProjectKS1.debug.xcconfig"; sourceTree = "<group>"; };
+		9FE2DD4DEFD87F7A9CFD0C5E /* Pods_ProjectKS1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectKS1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8C4A8D52084668800337945 /* KSCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSCollectionViewController.swift; sourceTree = "<group>"; };
+		A8C4A9032084709100337945 /* KSSearchCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSSearchCollectionReusableView.swift; sourceTree = "<group>"; };
+		A8C4A905208478BC00337945 /* KSCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSCollectionViewCell.swift; sourceTree = "<group>"; };
+		A8C4A906208478BC00337945 /* KSCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KSCollectionViewCell.xib; sourceTree = "<group>"; };
+		A8C5FE242086FE0000100F7B /* KSClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSClient.swift; sourceTree = "<group>"; };
 		A8E8365620841B3B00DAB400 /* ProjectKS1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectKS1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E8365920841B3B00DAB400 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A8E8365B20841B3B00DAB400 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A8E8365E20841B3B00DAB400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8E8366020841B3B00DAB400 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8E8366320841B3B00DAB400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +48,8 @@
 		A8E8366A20841B3B00DAB400 /* ProjectKS1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectKS1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E8366E20841B3B00DAB400 /* ProjectKS1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectKS1Tests.swift; sourceTree = "<group>"; };
 		A8E8367020841B3B00DAB400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8E8367920841B6300DAB400 /* KSModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSModel.swift; sourceTree = "<group>"; };
+		AE7DF6827DF0001B2A1E2AC4 /* Pods-ProjectKS1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectKS1.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectKS1/Pods-ProjectKS1.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				730DC8E71CA4C65A0AB6E1FC /* Pods_ProjectKS1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +71,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33EE9CB7D1890973AEEC633C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13D5CBAE0E1135C6902DF2C5 /* Pods-ProjectKS1.debug.xcconfig */,
+				AE7DF6827DF0001B2A1E2AC4 /* Pods-ProjectKS1.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		916C77B24066F40256CC412E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FE2DD4DEFD87F7A9CFD0C5E /* Pods_ProjectKS1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A8E8364D20841B3B00DAB400 = {
 			isa = PBXGroup;
 			children = (
 				A8E8365820841B3B00DAB400 /* ProjectKS1 */,
 				A8E8366D20841B3B00DAB400 /* ProjectKS1Tests */,
 				A8E8365720841B3B00DAB400 /* Products */,
+				33EE9CB7D1890973AEEC633C /* Pods */,
+				916C77B24066F40256CC412E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,11 +112,16 @@
 			isa = PBXGroup;
 			children = (
 				A8E8365920841B3B00DAB400 /* AppDelegate.swift */,
-				A8E8365B20841B3B00DAB400 /* ViewController.swift */,
+				A8E8367920841B6300DAB400 /* KSModel.swift */,
+				A8C5FE242086FE0000100F7B /* KSClient.swift */,
+				A8C4A9032084709100337945 /* KSSearchCollectionReusableView.swift */,
+				A8C4A8D52084668800337945 /* KSCollectionViewController.swift */,
 				A8E8365D20841B3B00DAB400 /* Main.storyboard */,
 				A8E8366020841B3B00DAB400 /* Assets.xcassets */,
 				A8E8366220841B3B00DAB400 /* LaunchScreen.storyboard */,
 				A8E8366520841B3B00DAB400 /* Info.plist */,
+				A8C4A905208478BC00337945 /* KSCollectionViewCell.swift */,
+				A8C4A906208478BC00337945 /* KSCollectionViewCell.xib */,
 			);
 			path = ProjectKS1;
 			sourceTree = "<group>";
@@ -103,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8E8367320841B3B00DAB400 /* Build configuration list for PBXNativeTarget "ProjectKS1" */;
 			buildPhases = (
+				DC8382492FE6268074DDBDCE /* [CP] Check Pods Manifest.lock */,
 				A8E8365220841B3B00DAB400 /* Sources */,
 				A8E8365320841B3B00DAB400 /* Frameworks */,
 				A8E8365420841B3B00DAB400 /* Resources */,
+				B2C0260DA0E00FEDB19A3E61 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -182,6 +223,7 @@
 				A8E8366420841B3B00DAB400 /* LaunchScreen.storyboard in Resources */,
 				A8E8366120841B3B00DAB400 /* Assets.xcassets in Resources */,
 				A8E8365F20841B3B00DAB400 /* Main.storyboard in Resources */,
+				A8C4A908208478BC00337945 /* KSCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,13 +236,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B2C0260DA0E00FEDB19A3E61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ProjectKS1/Pods-ProjectKS1-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjectKS1/Pods-ProjectKS1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC8382492FE6268074DDBDCE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProjectKS1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A8E8365220841B3B00DAB400 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8E8365C20841B3B00DAB400 /* ViewController.swift in Sources */,
+				A8C4A8D62084668800337945 /* KSCollectionViewController.swift in Sources */,
+				A8C4A9042084709100337945 /* KSSearchCollectionReusableView.swift in Sources */,
 				A8E8365A20841B3B00DAB400 /* AppDelegate.swift in Sources */,
+				A8E8367A20841B6300DAB400 /* KSModel.swift in Sources */,
+				A8C5FE252086FE0000100F7B /* KSClient.swift in Sources */,
+				A8C4A907208478BC00337945 /* KSCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +438,7 @@
 		};
 		A8E8367420841B3B00DAB400 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13D5CBAE0E1135C6902DF2C5 /* Pods-ProjectKS1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -365,6 +453,7 @@
 		};
 		A8E8367520841B3B00DAB400 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE7DF6827DF0001B2A1E2AC4 /* Pods-ProjectKS1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
